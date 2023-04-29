@@ -5,7 +5,7 @@ from string import ascii_uppercase
 import os
 
 app = Flask(__name__)
-app.config["SECRET_KEY"] = "hjhjsdahhds"
+app.config["SECRET_KEY"] = "hmm something secret should probably go here"
 socketio = SocketIO(app)
 
 rooms = {}
